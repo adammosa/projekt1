@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .l-heading {
+            font-size: 4rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.1;
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            color: #fff;
+            background-color: #f6e05b;
+            padding: 0.5rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background-color: #bf9000;
+            font-weight: bold;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #a39293;
+            align-items: center;
+            padding: 10px;
+            height: 50px;
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        #navbar .logo {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            margin: 0px 12px;
+            padding: 12px;
+            color: black;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        #navbar ul li a:hover {
+            background-color: #6654;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        #showcase {
+            background: #333 url("img/pen.jpg") no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+        }
+
+        #showcase .showcase-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 2rem;
+            background-color: rgba(0,0,0,0.5);
+
+
+            
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo"><i class="fa-solid fa-pen-nib"></i> Paper's Pens</div>
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#form"><i class="fa-regular fa-rectangle-list"></i> Form</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- #showcase>.showcase-content>h1.l-heading+p.lead+a.btn -->
+    <div id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">Papírová pera</h1>
+            <p class="lead">Naše firma přínáší na trh luxusní kolekci papírových per</p>
+            <a href="" class="btn">Chci vědět víc</a>
+        </div>
+    </div>
+    
+    <!-- Photo by <a href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on <a href="https://unsplash.com/photos/fountain-pen-on-spiral-book-xG8IQMqMITM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+  
+
+</body>
+</html>

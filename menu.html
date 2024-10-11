@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: aqua;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        #navbar .logo {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            margin: 0px 12px;
+            padding: 12px;
+            color: black;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        #navbar ul li a:hover {
+            background-color: magenta;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo"><i class="fa-solid fa-pen-nib"></i> Paper's Pens</div>
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#form"><i class="fa-regular fa-rectangle-list"></i> Form</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
