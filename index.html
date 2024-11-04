@@ -9,6 +9,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="querries.css">
 
 </head>
 
@@ -17,8 +18,9 @@
         <div class="logo"><i class="fa-solid fa-dog"></i></i> Adam's dogs</div>
         <ul>
             <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#plemena"><i class="fa-solid fa-house"></i> Plemena</a></li>
+            <li><a href="#what"><i class="fa-solid fa-house"></i> About</a></li>
             <li><a href="#photo-gallery"><i class="fa-solid fa-photo-film"></i></i> Photo Gallery</a></li>
+            <li><a href="#cenik"><i class="fa-solid fa-house"></i> Plemena</a></li>
             <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
         </ul>
     </nav>
@@ -28,7 +30,7 @@
         <div class="showcase-content">
             <h1 class="l-heading">Pes</h1>
             <p class="lead">Přítel člověka</p>
-            <a href="#plemena" class="btn">Chci vědět víc</a>
+            <a href="#photo-gallery" class="btn">Chci vědět víc</a>
         </div>
     </div>
 
@@ -39,56 +41,171 @@
             <div class="items">
                 
                 <div class="item">
-                    <i class="fas fa-book fa-2x"></i>
+                    <i class="fa-solid fa-dog"></i>
                     <div>
-                    <h3>Půjčujeme si pera</h3>
-                    <p>Vyzkoušejte naše luxusní pera</p>
+                    <h3>Domov</h3>
+                    <p>Psí domov.</p>
                     </div>
                 </div>
             
             <div class="item">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+                <i class="fa-solid fa-bath"></i>
                 <div>
-                <h3>Půjčujeme si pera</h3>
-                <p>Vyzkoušejte naše luxusní pera</p>
+                <h3>Koupel</h3>
+                <p>Koupel psů.</p>
                 </div>
             </div>
             
             <div class="item">
-                <i class="fas fa-book-reader fa-2x"></i>
+                <i class="fa-solid fa-bowl-food"></i>
                 <div>
-                <h3>Půjčujeme si pera</h3>
-                <p>Vyzkoušejte naše luxusní pera</p>
+                <h3>Granule</h3>
+                <p>Prodej kvalitních granulí.</p>
                 </div>
             </div>
         </div>
      </section>
 
 
-
-    <div class="main">
-        <section id="plemena">
-            <h2 class="text-center">Plemena</h2>
-            <div class="items">
-                <div class="plemena-psu"><img src="https://krteckem.cz/data/include/img/news/1718097174.jpg" alt="Husky">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem</p>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+     <section id="photo-gallery" class="photo-gallery">
+        <div class="header">
+            <h1>Fotogalerie</h1>
+        </div>
+    
+        <!-- Photo Grid -->
+        <div class="row">
+    
+            <div class="column">
+                <div class="img-hover-zoom">
+                    <img src="/img/img1.jpg" style="width:100%" alt="">
                 </div>
-                
-                <div class="plemena-psu"><img src="https://krteckem.cz/data/include/img/news/1718097174.jpg" alt="Husky">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem.</p>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="img-hover-zoom">
+                    <img src="/img/img2.jpg" style="width:100%" alt="">
                 </div>
-                
-                <div class="plemena-psu"><img src="https://krteckem.cz/data/include/img/news/1718097174.jpg" alt="Husky">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem.</p>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="img-hover-zoom">
+                    <img src="/img/img3.jpg" style="width:100%" alt="">
                 </div>
             </div>
-        </section>
+    
+            <div class="column">
+                <div class="img-hover-zoom">
+                    <img src="/img/img4.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img5.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img6.jpg" style="width:100%" alt="">
+                </div>
+            </div>
+    
+            <div class="column">
+                <div class="img-hover-zoom">
+                    <img src="/img/img7.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img8.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img9.jpg" style="width:100%" alt="">
+                </div>
+            </div>
+    
+            <div class="column">
+                <div class="img-hover-zoom">
+                    <img src="/img/img10.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img11.jpg" style="width:100%" alt="">
+                </div>
+                <div class="img-hover-zoom">
+                    <img src="/img/img12.jpg" style="width:100%" alt="">
+                </div>
+            </div>
+    
+        </div>
+     </section>
+  
 
     </div>
 
+    <section id="cenik" class="cenik">
+        <h2 class="text-center">Plemena</h2>
+        <table>
+            <tr>
+                <th>Název plemene</th>
+                <th>Velikost</th>
+                <th>Původ</th>
+                <th>Popis</th>
+            </tr>
+            <tr>
+                <td>Beagle</td>
+                <td>Střední</td>
+                <td>Anglie</td>
+                <td>Beagle je přátelský pes s dobrým čichem, často využívaný jako lovecký pes.</td>
+            </tr>
+            <tr>
+                <td>Německý ovčák</td>
+                <td>Velký</td>
+                <td>Německo</td>
+                <td>Inteligentní, všestranný a loajální pes, často používán v policejních a vojenských službách.</td>
+            </tr>
+            <tr>
+                <td>Čivava</td>
+                <td>Malý</td>
+                <td>Mexiko</td>
+                <td>Malý pes s velkou osobností, často považován za společenské plemeno.</td>
+            </tr>
+            <tr>
+                <td>Labradorský retrívr</td>
+                <td>Velký</td>
+                <td>Kanada</td>
+                <td>Přátelský a energický pes, skvělý společník pro aktivní rodiny.</td>
+            </tr>
+            <tr>
+                <td>Pudl</td>
+                <td>Malý až velký</td>
+                <td>Francie</td>
+                <td>Inteligentní a hravý pes, který je známý pro svou výcvikovou schopnost a stylovou srst.</td>
+            </tr>
+        </table>
+    </section>  
+    
+    <section id="contact" class="contact">
+        <h2 class="text-center"></h2>
+    
+        <div class="wrapper">
+            <form action="">
+                <h1>Formulář</h1>
+                
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                
+                
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+            
+                <button type="submit" class="btn1">Login</button>
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+
+
+
+            </form>
+        </div>
+    
+    </section>
     <!-- Photo by <a href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on <a href="https://unsplash.com/photos/fountain-pen-on-spiral-book-xG8IQMqMITM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
 
 
