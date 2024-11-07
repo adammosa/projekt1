@@ -366,3 +366,14 @@ tr:hover {
 .img-hover-zoom:hover img{
     transform: scale(1.5);
 }
+
+footer {
+    margin: 20px 0;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+}
